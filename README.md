@@ -6,7 +6,7 @@
 
 # Dracpurp: The Dark Purple Evolution
 
-*By simwai, evolving into the cyberpunk future.*
+_By simwai, evolving into the cyberpunk future._
 
 ## The Emergence of Dracpurp
 
@@ -39,20 +39,21 @@ We believe in the power of contrast. The deep backgrounds allow the vibrant pink
 
 Built with reliability in mind, Dracpurp utilizes a robust generation engine ensuring that every color is mapped with mathematical precision to the VS Code UI components.
 
-## Join the Evolution
-
-We’re constantly refining the aesthetic landscape of Dracpurp. If you find a corner of the UI that needs more neon, feel free to contribute. The future is built by those who show up.
-
 ## Visual Insights
 
+Explore the aesthetic manifold of Dracpurp across its various manifestations:
+
 ### Dracpurp (Default)
-![Dracpurp Screenshot](./screenshot-dracpurp.png)
+
+[![Dracpurp Screenshot](./screenshot-dracpurp.png)](./screenshot-dracpurp.png)
 
 ### Dracpurp (Night Owl Italic)
-![Night Owl Italic](./screenshot-dracpurp-night-owl-italic.png)
+
+[![Night Owl Italic](./screenshot-dracpurp-night-owl-italic.png)](./screenshot-dracpurp-night-owl-italic.png)
 
 ### Dracpurp (No Italic)
-![No Italic](./screenshot-dracpurp-no-italic.png)
+
+[![No Italic](./screenshot-dracpurp-no-italic.png)](./screenshot-dracpurp-no-italic.png)
 
 ---
 
