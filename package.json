@@ -8,6 +8,7 @@
   "scripts": {
     "build": "node ./scripts/build.js",
     "lint": "node ./scripts/lint.js",
+    "format": "biome check --write",
     "package": "vsce package -o ./bin/dracpurp.vsix",
     "vscode:prepublish": "npm run build",
     "vsce-publish": "vsce publish",
@@ -18,6 +19,7 @@
     "type": "git",
     "url": "https://github.com/simwai/dracpurp"
   },
+  "packageManager": "pnpm",
   "engines": {
     "vscode": "^1.13.0"
   },
@@ -33,7 +35,7 @@
     "theme",
     "color-theme"
   ],
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#100e12",
     "theme": "dark"
@@ -59,10 +61,11 @@
   },
   "lint-staged": {
     "*.{js,json,yml,md}": [
-      "prettier --write"
+      "pnpx run format"
     ]
   },
   "devDependencies": {
+    "@biomejs/biome": "2.3.11",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
@@ -72,12 +75,11 @@
     "husky": "^9.0.11",
     "js-yaml": "^3.14.0",
     "lint-staged": "^15.2.2",
-    "prettier": "^2.2.1",
-    "semantic-release": "^23.0.2",
-    "tinycolor2": "^1.4.2",
-    "vsce": "^1.87.1"
+    "semantic-release": "^23.0.2"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "tinycolor2": "^1.4.2",
+    "vsce": "^1.87.1"
   }
 }
