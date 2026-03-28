@@ -61,7 +61,7 @@
   },
   "lint-staged": {
     "*.{js,json,yml,md}": [
-      "pnpx run format"
+      "pnpm run format"
     ]
   },
   "devDependencies": {

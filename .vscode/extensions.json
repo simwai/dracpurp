@@ -1,7 +1,3 @@
 {
-  "recommendations": [
-    "editorconfig.editorconfig",
-    "redhat.vscode-yaml",
-    "ms-ceintl.vscode-language-pack-pt-br"
-  ]
+  "recommendations": ["editorconfig.editorconfig", "redhat.vscode-yaml"]
 }
