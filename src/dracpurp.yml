@@ -12,27 +12,27 @@ dracula:
     - &SELECTION '#2d074496'
     - &COMMENT '#8b6b9e'
     - &CYAN '#8BE9FD'
-    - &GREEN '#5c962c'
+    - &GREEN '#50FA7B'
     - &ORANGE '#ffb347'
-    - &PINK '#b83dff'
-    - &PURPLE '#a025e7'
+    - &PINK '#FF79C6'
+    - &PURPLE '#BD93F9'
     - &RED '#ff6b6b'
     - &YELLOW '#F1FA8C'
   ansi:
     - &COLOR0 '#11021a'
     - &COLOR1 '#ff6b6b'
-    - &COLOR2 '#5c962c'
+    - &COLOR2 '#50FA7B'
     - &COLOR3 '#ffb347'
-    - &COLOR4 '#a025e7'
-    - &COLOR5 '#b83dff'
+    - &COLOR4 '#BD93F9'
+    - &COLOR5 '#FF79C6'
     - &COLOR6 '#8BE9FD'
     - &COLOR7 '#e8e8e8'
     - &COLOR8 '#8b6b9e'
     - &COLOR9 '#ff6b6b'
-    - &COLOR10 '#5c962c'
+    - &COLOR10 '#50FA7B'
     - &COLOR11 '#ffb347'
-    - &COLOR12 '#b83dff'
-    - &COLOR13 '#b83dff'
+    - &COLOR12 '#FF79C6'
+    - &COLOR13 '#FF79C6'
     - &COLOR14 '#8BE9FD'
     - &COLOR15 '#ffffff'
   brightOther:
@@ -431,7 +431,7 @@ tokenColors:
   - scope:
       - header
     settings:
-      foreground: *PURPLE
+      foreground: *PINK
   - scope:
       - source
     settings:
@@ -496,7 +496,7 @@ tokenColors:
       - markup.heading
     settings:
       fontStyle: bold
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Markup italic
     scope:
@@ -562,14 +562,14 @@ tokenColors:
     scope:
       - punctuation.definition.constant.restructuredtext
     settings:
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Braces in markdown headings
     scope:
       - markup.heading.markdown punctuation.definition.string.begin
       - markup.heading.markdown punctuation.definition.string.end
     settings:
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Braces in markdown paragraphs
     scope:
@@ -606,7 +606,7 @@ tokenColors:
       - variable.other.readwrite.instance.ruby # ruby's "@" instance symbol
       - variable.parameter.function.language.special # Special words as parameters
     settings:
-      foreground: *PURPLE
+      foreground: *PINK
       fontStyle: italic
 
   - name: Inherited classes
@@ -666,7 +666,7 @@ tokenColors:
       - constant
       - variable.other.constant
     settings:
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Constant escape sequences
     scope:
@@ -785,7 +785,7 @@ tokenColors:
       - variable.other.predefined
     settings:
       fontStyle: ''
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Built-in functions / properties
     scope:
@@ -1115,14 +1115,14 @@ tokenColors:
     scope:
       - source.shell variable.other
     settings:
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Powershell constants mistakenly scoped to `support`, rather than `constant` (edge)
     scope:
       - support.constant
     settings:
       fontStyle: ''
-      foreground: *PURPLE
+      foreground: *PINK
 
   - name: Makefile prerequisite names
     scope:

@@ -76,13 +76,12 @@
     "@semantic-release/github": "^9.2.6",
     "@semantic-release/npm": "^11.0.2",
     "@semantic-release/release-notes-generator": "^12.1.0",
+    "@vscode/vsce": "^3.7.1",
     "husky": "^9.0.11",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.2",
     "lint-staged": "^15.2.2",
     "lodash": "^4.17.21",
     "semantic-release": "^23.0.2",
-    "tinycolor2": "^1.4.2",
-    "@vscode/vsce": "^3.7.1"
-  },
-  "dependencies": {}
+    "tinycolor2": "^1.4.2"
+  }
 }
