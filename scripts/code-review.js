@@ -3,7 +3,7 @@ const path = require('path');
 
 const filesToReview = [
     'scripts/generate-screenshots.js',
-    'samples/battle-strategy.js',
+    'samples/battle-strategy.ts',
     'README.md',
     '.husky/pre-commit',
     'package.json'
