@@ -2,7 +2,7 @@ $schema: vscode://schemas/color-theme
 name: Dracpurp
 author: simwai
 maintainers:
-  - simwai <simwai@example.com>
+  - simwai
 semanticClass: theme.dracpurp
 semanticHighlighting: false
 dracula:
