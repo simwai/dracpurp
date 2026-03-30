@@ -84,6 +84,7 @@
     "playwright": "^1.58.2",
     "semantic-release": "^23.0.2",
     "semantic-release-vsce": "^6.1.2",
+    "shiki": "^4.0.2",
     "tinycolor2": "^1.4.2"
   }
 }
